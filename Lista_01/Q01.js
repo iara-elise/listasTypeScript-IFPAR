@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var readline = require("readline-sync");
+var num_01 = parseFloat(readline.question("Nota 01: "));
+var num_02 = parseFloat(readline.question("Nota 02: "));
+var soma = num_01 + num_02;
+console.log("SOMA: " + soma);
+var subtracao = num_01 - num_02;
+console.log("SUBTRAÇÃO: " + subtracao);
+var multiplicacao = num_01 * num_02;
+console.log("MULTIPLICALÇÃO: " + multiplicacao);
+var divisao = num_01 / num_02;
+console.log("DIVISÃO: " + divisao);
